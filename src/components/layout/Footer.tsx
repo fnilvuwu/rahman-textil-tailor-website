@@ -1,11 +1,13 @@
 
+const logo = new URL('../../data/public/logo.png', import.meta.url).href
+
 export default function Footer() {
     return (
         <footer className="bg-[#f4f5f7] border-t border-black/5 py-10 mt-8">
             <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-start gap-8">
                 <div>
                     <div className="flex items-center gap-3">
-                        <img src="/src/data/public/logo.png" alt="Rahman Textil & Taylor" className="h-12 object-contain" />
+                        <img src={logo} alt="Rahman Textil & Taylor" className="h-12 object-contain" />
                         <div>
                             <div className="serif text-lg text-[#2d2f35]">Rahman Textil & Taylor</div>
                             <div className="text-sm text-[#696d76]">Jl. Nusakambangan No. 24, Makassar</div>

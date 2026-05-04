@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
+const logo = new URL('../../data/public/logo.png', import.meta.url).href
+
 const navLinks = [
     { label: 'Katalog', href: '#catalog' },
     { label: 'Mengapa Kami', href: '#why' },
@@ -14,7 +16,7 @@ export default function Navbar() {
         <header className="fixed top-0 w-full z-50 border-b border-line-soft bg-white/95 shadow-[0_3px_18px_rgba(0,0,0,0.04)] backdrop-blur-sm">
             <nav className="max-w-6xl mx-auto px-4 md:px-6 py-3 flex items-center justify-between">
                 <Link to="/" className="flex items-center gap-3" onClick={() => setIsOpen(false)}>
-                    <img src="/src/data/public/logo.png" alt="Rahman Textil & Taylor" className="h-9 md:h-11 w-auto max-w-[170px] sm:max-w-[230px] object-contain" />
+                    <img src={logo} alt="Rahman Textil & Taylor" className="h-9 md:h-11 w-auto max-w-[170px] sm:max-w-[230px] object-contain" />
                 </Link>
 
                 <div className="hidden md:flex items-center gap-10">

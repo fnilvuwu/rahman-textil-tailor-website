@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion'
 import React from 'react'
 
+const heroModel = new URL('../../data/public/model_baju_khaki-hero.png', import.meta.url).href
+
 const strengths = [
     {
         title: 'Kualitas Terbaik',
@@ -66,7 +68,7 @@ const Hero: React.FC = () => {
                         <div className="absolute -right-24 top-6 h-[420px] w-[420px] rounded-full bg-[radial-gradient(circle,#ffffff_0%,#ececec_70%)]" />
                         <div className="absolute -right-8 top-16 h-[320px] w-[320px] rounded-tl-[180px] rounded-bl-[180px] bg-[#e8e8ea] opacity-75" />
                         <img
-                            src="/src/data/public/model_baju_khaki-hero.png"
+                            src={heroModel}
                             alt="Model seragam khaki"
                             className="relative z-10 mx-auto w-full max-w-[620px] object-contain drop-shadow-[0_20px_34px_rgba(0,0,0,0.15)]"
                         />

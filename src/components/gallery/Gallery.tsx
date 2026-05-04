@@ -2,10 +2,10 @@ import { motion } from 'framer-motion'
 import { useEffect, useRef, useState } from 'react'
 
 const imgs = [
-    '/src/data/public/model_kameja_putih.png',
-    '/src/data/public/model_baju_khaki.png',
-    '/src/data/public/model_baju_korpri.png',
-    '/src/data/public/model_baju_pgri.png',
+    new URL('../../data/public/model_kameja_putih.png', import.meta.url).href,
+    new URL('../../data/public/model_baju_khaki.png', import.meta.url).href,
+    new URL('../../data/public/model_baju_korpri.png', import.meta.url).href,
+    new URL('../../data/public/model_baju_pgri.png', import.meta.url).href,
 ]
 
 const loopedImgs = [...imgs, ...imgs, ...imgs]
