@@ -1,0 +1,34 @@
+[
+    {
+        "id": "prod-001",
+        "name": "Seragam Khaki",
+        "category": "Seragam Dinas",
+        "img": "/src/data/public/baju_khaki.jpg",
+        "tag": "Best Seller",
+        "description": "Seragam khaki berkualitas, bahan nyaman dan jahitan rapi. Cocok untuk instansi dan dinas."
+    },
+    {
+        "id": "prod-002",
+        "name": "Kemeja Putih Formal",
+        "category": "Kemeja Formal",
+        "img": "/src/data/public/kameja_putih.jpg",
+        "tag": "Custom Order",
+        "description": "Kemeja putih formal dengan bahan katun premium, potongan rapi untuk suasana formal."
+    },
+    {
+        "id": "prod-003",
+        "name": "Batik Seragam",
+        "category": "Batik",
+        "img": "/src/data/public/baju_batik.jpg",
+        "tag": "Best Seller",
+        "description": "Batik seragam terstandarisasi, cocok untuk kantor dan sekolah. Bisa disesuaikan motif."
+    },
+    {
+        "id": "prod-004",
+        "name": "Kameja Hitam",
+        "category": "Kemeja Formal",
+        "img": "/src/data/public/kameja_hitam.jpg",
+        "tag": "",
+        "description": "Kemeja hitam formal dengan bahan katun premium, potongan rapi untuk suasana formal."
+    }
+]

@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --brand-primary: #d60f0f;
+    --brand-accent: #d4af37;
+    --surface: #ffffff;
+    --surface-soft: #f4f4f4;
+    --text-main: #242428;
+    --text-muted: #6a6a72;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    background: linear-gradient(180deg, #fcfcfc 0%, #f6f6f7 48%, #fbfbfb 100%);
+    color: var(--text-main);
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.serif {
+    font-family: Playfair Display, serif
+}
+
+/* subtle image overlay helper */
+.bg-hero-overlay {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.55));
+}
+
+.surface-card {
+    background: var(--surface);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.07);
+}
+
+.section-shell {
+    background: radial-gradient(circle at top right, rgba(255, 255, 255, 0.9), rgba(246, 246, 247, 0.92));
+}
