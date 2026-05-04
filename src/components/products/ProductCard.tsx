@@ -14,7 +14,7 @@ const resolveAssetUrl = (assetPath: string) => {
         return assetPath
     }
 
-    return new URL(`../../${assetPath.replace(/^\//, '')}`, import.meta.url).href
+    return new URL(`../../${assetPath.replace(/^\/src\//, '')}`, import.meta.url).href
 }
 
 export default function ProductCard({ product }: { product: Product }) {
