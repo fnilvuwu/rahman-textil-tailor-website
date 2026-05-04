@@ -9,11 +9,21 @@ type Product = {
     description?: string
 }
 
+const resolveAssetUrl = (assetPath: string) => {
+    if (/^https?:\/\//.test(assetPath)) {
+        return assetPath
+    }
+
+    return new URL(`../../${assetPath.replace(/^\//, '')}`, import.meta.url).href
+}
+
 export default function ProductCard({ product }: { product: Product }) {
+    const imageSrc = resolveAssetUrl(product.img)
+
     return (
         <div className="flex flex-col">
             <div className="h-56 overflow-hidden bg-[#f1f2f4]">
-                <motion.img src={product.img} alt={product.name} className="w-full h-full object-cover" whileHover={{ scale: 1.08 }} transition={{ duration: 0.5 }} loading="lazy" />
+                <motion.img src={imageSrc} alt={product.name} className="w-full h-full object-cover" whileHover={{ scale: 1.08 }} transition={{ duration: 0.5 }} loading="lazy" />
             </div>
             <div className="p-5 flex-1 flex flex-col justify-between">
                 <div>
