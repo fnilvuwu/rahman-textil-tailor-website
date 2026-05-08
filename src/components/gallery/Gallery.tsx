@@ -134,7 +134,10 @@ export default function Gallery() {
                     <p className="text-sm uppercase tracking-[0.18em] text-[#7a7a80] font-semibold">Portofolio</p>
                     <h2 className="serif text-4xl text-[#2f3034] mt-2">Galeri</h2>
                 </div>
-                <div ref={trackRef} className="overflow-x-auto no-scrollbar">
+                <div
+                    ref={trackRef}
+                    className="mx-auto max-w-[calc(2*20rem+1.5rem)] overflow-x-auto no-scrollbar snap-x snap-mandatory lg:max-w-[calc(3*20rem+3rem)]"
+                >
                     <div className="flex gap-6 pb-4">
                         {loopedImgs.map((src, idx) => {
                             const isActive = idx % imgs.length === activeIndex
@@ -150,7 +153,7 @@ export default function Gallery() {
                                     whileInView={{ opacity: 1, y: 0, scale: 1 }}
                                     transition={{ duration: 0.45, ease: 'easeOut' }}
                                     viewport={{ once: true }}
-                                    className="shrink-0 w-[min(80vw,20rem)] sm:w-[min(42vw,20rem)] lg:w-[calc((100%-3rem)/3)]"
+                                    className="shrink-0 w-[min(80vw,20rem)] sm:w-[min(42vw,20rem)] lg:w-[calc((100%-3rem)/3)] snap-center"
                                 >
                                     <button
                                         type="button"
@@ -158,7 +161,12 @@ export default function Gallery() {
                                         aria-label={`Zoom ${altText}`}
                                         className={`w-full overflow-hidden rounded-3xl border border-black/5 bg-white shadow-[0_12px_28px_rgba(0,0,0,0.08)] transition-all duration-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#be0f0f] cursor-zoom-in ${isActive ? 'scale-[1.04] shadow-[0_18px_38px_rgba(0,0,0,0.12)]' : 'opacity-75'}`}
                                     >
-                                        <img src={src} alt={altText} className="w-full aspect-[4/5] object-contain bg-white" loading="lazy" />
+                                        <img
+                                            src={src}
+                                            alt={altText}
+                                            className="w-full aspect-[4/5] object-contain object-center bg-white"
+                                            loading="lazy"
+                                        />
                                     </button>
                                 </motion.div>
                             )
