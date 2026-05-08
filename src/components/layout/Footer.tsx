@@ -37,6 +37,12 @@ export default function Footer() {
                 </div>
             </div>
             <div className="mt-8 text-center text-sm text-[#7a7e86]">© 2026 Rahman Textil & Taylor. Semua hak dilindungi.</div>
+            <div className="text-center text-sm text-[#7a7e86]">
+                Made by{' '}
+                <a href="https://fnilvuwu.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-primary">
+                    fnilvuwu
+                </a>
+            </div>
         </footer>
     )
 }
