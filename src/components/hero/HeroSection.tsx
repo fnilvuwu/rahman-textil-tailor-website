@@ -86,8 +86,6 @@ const Hero: React.FC = () => {
                         </div>
 
                         <div className="md:col-span-7 relative order-1 md:order-2 min-h-[240px] sm:min-h-[320px] lg:min-h-[380px]">
-                            <div className="absolute inset-x-0 top-12 mx-auto h-[240px] w-[360px] sm:h-[320px] sm:w-[480px] rounded-full bg-[radial-gradient(circle,#ffffff_0%,#ececec_70%)]" />
-                            <div className="absolute right-[-2rem] sm:right-[-2rem] top-12 h-[200px] w-[260px] sm:h-[280px] sm:w-[360px] rounded-tl-[180px] rounded-bl-[180px] bg-[#e8e8ea] opacity-75" />
                             <button
                                 type="button"
                                 onClick={openZoom}
@@ -97,7 +95,7 @@ const Hero: React.FC = () => {
                                 <img
                                     src={heroModel}
                                     alt="Model seragam khaki"
-                                    className="w-full h-auto object-contain drop-shadow-[0_20px_34px_rgba(0,0,0,0.15)]"
+                                    className="w-full h-auto object-contain"
                                 />
                             </button>
                         </div>
