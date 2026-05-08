@@ -5,15 +5,15 @@
         "category": "Seragam Dinas",
         "img": "/src/data/public/baju_khaki.jpg",
         "tag": "Best Seller",
-        "description": "Seragam khaki berkualitas, bahan nyaman dan jahitan rapi. Cocok untuk instansi dan dinas."
+        "description": "Seragam khaki dengan desain profesional dan jahitan rapi, menggunakan bahan berkualitas yang nyaman dipakai sepanjang hari."
     },
     {
         "id": "prod-002",
-        "name": "Kemeja Putih Formal",
+        "name": "Kemeja Putih (Kancing Putih)",
         "category": "Kemeja Formal",
-        "img": "/src/data/public/kameja_putih.jpg",
-        "tag": "Custom Order",
-        "description": "Kemeja putih formal dengan bahan katun premium, potongan rapi untuk suasana formal."
+        "img": "/src/data/public/kemeja_putih-kancing_putih.png",
+        "tag": "Best Seller",
+        "description": "Kemeja putih dengan detail kancing putih yang memberikan tampilan bersih dan elegan, dibuat dari bahan nyaman dengan potongan rapi."
     },
     {
         "id": "prod-003",
@@ -21,14 +21,54 @@
         "category": "Batik",
         "img": "/src/data/public/baju_batik.jpg",
         "tag": "Best Seller",
-        "description": "Batik seragam terstandarisasi, cocok untuk kantor dan sekolah. Bisa disesuaikan motif."
+        "description": "Batik seragam berkualitas dengan motif elegan, cocok untuk kebutuhan instansi, sekolah, PGRI, maupun Korpri."
     },
     {
         "id": "prod-004",
-        "name": "Kameja Hitam",
+        "name": "Kemeja Hitam",
         "category": "Kemeja Formal",
-        "img": "/src/data/public/kameja_hitam.jpg",
-        "tag": "",
-        "description": "Kemeja hitam formal dengan bahan katun premium, potongan rapi untuk suasana formal."
+        "img": "/src/data/public/kemeja_hitam.jpg",
+        "tag": "Best Seller",
+        "description": "Kemeja hitam dengan tampilan elegan dan modern, dibuat dari bahan berkualitas yang nyaman digunakan untuk aktivitas sehari-hari maupun acara formal."
+    },
+    {
+        "id": "prod-005",
+        "name": "Kemeja Kemenag 1",
+        "category": "Kemeja Formal",
+        "img": "/src/data/public/kemeja_kemenag_style1.png",
+        "tag": "Best Seller",
+        "description": "Kemeja formal gaya Kementrian Agama dengan desain elegan, bahan nyaman dan potongan rapi cocok untuk kegiatan resmi maupun kerja lapangan."
+    },
+    {
+        "id": "prod-006",
+        "name": "Kemeja Kemenag 2",
+        "category": "Kemeja Formal",
+        "img": "/src/data/public/kemeja_kemenag_style2.png",
+        "tag": "Best Seller",
+        "description": "Kemeja Kementrian Agama hadir dengan tampilan modern dan detail profesional, menggunakan bahan berkualitas yang nyaman dipakai sepanjang hari untuk aktivitas formal dan dinas."
+    },
+    {
+        "id": "prod-007",
+        "name": "Kemeja Putih (Pria)",
+        "category": "Kemeja Formal",
+        "img": "/src/data/public/kemeja_putih-pria.png",
+        "tag": "Best Seller",
+        "description": "Kemeja putih pria dengan desain simpel dan elegan, dibuat dari bahan nyaman yang cocok digunakan untuk acara formal maupun aktivitas kerja sehari-hari."
+    },
+    {
+        "id": "prod-008",
+        "name": "Kemeja Putih (Wanita)",
+        "category": "Kemeja Formal",
+        "img": "/src/data/public/kemeja_putih-wanita.png",
+        "tag": "Best Seller",
+        "description": "Kemeja putih wanita dengan potongan modern dan tampilan rapi, memberikan kenyamanan maksimal untuk kegiatan formal, kantor, maupun acara resmi."
+    },
+    {
+        "id": "prod-009",
+        "name": "Seragam Wanita",
+        "category": "Seragam Formal",
+        "img": "/src/data/public/seragam_wanita.jpg",
+        "tag": "Best Seller",
+        "description": "Seragam wanita dengan desain elegan dan modern, tersedia dalam pilihan polos maupun motif batik yang memberikan kesan profesional dan anggun."
     }
 ]

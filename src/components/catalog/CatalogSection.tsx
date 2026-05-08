@@ -10,7 +10,7 @@ export default function CatalogSection() {
     return (
         <section id="catalog" className="max-w-6xl mx-auto px-6 py-16 md:py-20">
             <div className="mb-8">
-                <p className="text-sm uppercase tracking-[0.18em] text-[#7a7a80] font-semibold">Koleksi</p>
+                <p className="text-sm uppercase tracking-[0.18em] text-[#7a7a80] font-semibold">Produk</p>
                 <h2 className="serif text-4xl text-[#2f3034] mt-2">E-Katalog</h2>
             </div>
             <div className="mb-6">

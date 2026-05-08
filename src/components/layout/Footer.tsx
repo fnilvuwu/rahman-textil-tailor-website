@@ -7,10 +7,16 @@ export default function Footer() {
             <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-start gap-8">
                 <div>
                     <div className="flex items-center gap-3">
-                        <img src={logo} alt="Rahman Textil & Taylor" className="h-12 object-contain" />
                         <div>
                             <div className="serif text-lg text-[#2d2f35]">Rahman Textil & Taylor</div>
-                            <div className="text-sm text-[#696d76]">Jl. Nusakambangan No. 24, Makassar</div>
+                            <a
+                                href="https://maps.app.goo.gl/zAVui8bQE4TqXWndA"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="mt-1 text-sm text-[#696d76] hover:text-primary hover:underline focus-visible:underline outline-none"
+                            >
+                                Jl. Nusakambangan No.24
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -25,8 +31,8 @@ export default function Footer() {
                     </div>
                     <div>
                         <div className="font-semibold text-[#2d2f35]">Kontak</div>
-                        <div className="mt-2 text-sm text-[#696d76]">0813-4299-3955</div>
-                        <div className="text-sm text-[#696d76]">0812-4168-3192</div>
+                        <a href="https://wa.me/628134299955" target="_blank" rel="noreferrer" className="mt-2 block text-sm text-[#696d76] hover:text-primary">0813-4299-3955</a>
+                        <a href="https://wa.me/628124168192" target="_blank" rel="noreferrer" className="block text-sm text-[#696d76] hover:text-primary">0812-4168-3192</a>
                     </div>
                 </div>
             </div>

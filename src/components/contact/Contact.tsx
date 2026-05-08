@@ -9,7 +9,14 @@ export default function Contact() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="surface-card rounded-2xl p-7">
                     <p className="font-semibold text-[#2d2f35]">Alamat</p>
-                    <p className="mt-1 text-[#676b74]">Jl. Nusakambangan No.24, Pattunuang, Kec. Wajo, Kota Makassar, Sulawesi Selatan 90171</p>
+                    <a
+                        href="https://maps.app.goo.gl/zAVui8bQE4TqXWndA"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-1 text-primary  hover:underline focus-visible:underline outline-none"
+                    >
+                        Jl. Nusakambangan No.24, Pattunuang, Kec. Wajo, Kota Makassar, Sulawesi Selatan 90171
+                    </a>
                     <p className="mt-6 font-semibold text-[#2d2f35]">Telepon</p>
                     <a href="https://wa.me/628134299955" target="_blank" rel="noreferrer" className="mt-1 text-primary hover:underline font-medium">0813-4299-3955</a>
                     <a href="https://wa.me/628124168192" target="_blank" rel="noreferrer" className="block text-primary hover:underline font-medium">0812-4168-3192</a>
@@ -17,8 +24,8 @@ export default function Contact() {
                 <div>
                     <div className="w-full h-72 bg-[#eceef1] rounded-2xl border border-black/5 overflow-hidden shadow-[0_12px_26px_rgba(0,0,0,0.08)]">
                         <iframe
-                            title="map"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.627447835505!2d119.40789752346055!3d-5.136389971500448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbefd18d0000001%3A0x1!2sJl.%20Nusakambangan%20No.%2024%2C%20Pattunuang%2C%20Kec.%20Wajo%2C%20Kota%20Makassar!5e0!3m2!1sid!2sid!4v1717480800000"
+                            title="Rahman Textil & Taylor Map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d993.4575634128244!2d119.41226236951942!3d-5.131025563946802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbf02a668b3ddad%3A0x6d3ae7023d650c86!2sRahman%20Textil%20%26%20Taylor!5e0!3m2!1sen!2sus!4v1778229833750!5m2!1sen!2sus"
                             className="w-full h-full border-0"
                             allowFullScreen=""
                             loading="lazy"
